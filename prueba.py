@@ -33,12 +33,19 @@ print(numee)
 print(salida)
 
 ssali = []
-def encuentra_palabra(entra): 
+
+#esta funcion debe encontrar la posicion de una letra en el string
+def encuentra_palabra(entra, entrr): 
     
-    for elementos in range (numee):
-        sali = ver.index(entra)
-        if sali > 0: ssali.append(sali)
-    return ssali
-fin = encuentra_palabra(entra)
+    ssali = list(entra)
+
+    for elementos in ssali:
+        ssaal = ssali.index(entrr)
+    
+    # for elementos in range (numee):
+    #     sali = ver.index(entra)
+    #     if sali > 0: ssali.append(sali)
+    return ssaal
+fin = encuentra_palabra(ver, entra)
 
 print(fin)
