@@ -33,10 +33,10 @@ print(numee)
 print(salida)
 
 ssali = []
-def encuentra_palabra(entra):
+def encuentra_palabra(entra): 
     
     for elementos in range (numee):
-        sali = ver.find(entra)
+        sali = ver.index(entra)
         if sali > 0: ssali.append(sali)
     return ssali
 fin = encuentra_palabra(entra)
