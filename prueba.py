@@ -26,7 +26,8 @@ ver = lista_animales[paso]
 print(ver)
 
 numee = len(ver)
-
+ 
+ssali = ver.find('a')
 print(numee)
-
+print(ssali)
 print(salida)
