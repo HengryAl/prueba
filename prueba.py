@@ -27,7 +27,18 @@ print(ver)
 
 numee = len(ver)
  
-ssali = ver.find('a')
+entra = input('Escribe una palabra: ')
 print(numee)
-print(ssali)
+
 print(salida)
+
+ssali = []
+def encuentra_palabra(entra):
+    
+    for elementos in range (numee):
+        sali = ver.find(entra)
+        if sali > 0: ssali.append(sali)
+    return ssali
+fin = encuentra_palabra(entra)
+
+print(fin)
